@@ -1,0 +1,21 @@
+.container{
+    background-color: #AFE2FF;
+    max-width: 100%;
+}
+.caixa{
+    -webkit-clip-path: circle(80% at 80% 80%);
+    clip-path: circle(90% at 20% 10%);
+    background-color: #DB3661;
+   
+}
+.textHeader{
+    padding-bottom: 20px;
+    color: #FFFBFB;
+    font-size: 74px;
+}
+
+.buttonStyle{
+    background-color: #2270A8;
+}
+
+
