@@ -3,22 +3,20 @@ import React from 'react';
 
 import FormImg from './FormSection.png'
 import 'bootswatch/dist/minty/bootstrap.min.css';
-import '../Header/style.css';
+import '../style.css';
 
 const FormSection = () =>
 
-    <section className="FormSection">
-        <div className="containerFormSection">
-            <div className="row">
+    <section>
+        <div>
+            <div className="row caixaSection">
                 <div className="col-md-7 d-flex form">
-
-                    <div className="align-self-center formInput">
-                        <div className="input-group mb-4">
-                            <div className="input-group-prepend">
-                                <span className="input-group-text colorInput">@</span>
-                            </div>
-                            <input type="text" className="form-control" placeholder="Digite seu email" />
-                        </div>
+                    <div className="align-self-center">
+                       
+                        <h2>Torne-se um doador!</h2>
+                        <div className="inputForm">
+                    <input type="email" class="form-control" placeholder="Enter email"/>
+                    </div>
                         <select className="custom-select">
                             <option selected="">Selecione o tipo sanguíneo</option>
                             <option value="1">A+</option>
@@ -31,13 +29,13 @@ const FormSection = () =>
                             <option value="3">AB+</option>
                         </select>
                         <div className="buttonCadastro">
-                        <button type="button" className="btn btnStyle">Cadastrar</button>
+                        <button type="button" className="btn colorStyle">Cadastrar</button>
                         </div>
                     </div>
                    
                 </div>
-                <div className="col-md-5 d-none d-md-block formImg">
-                    <img src={FormImg} width="450" alt="image of section" className="ImgS" />
+                <div className="col-md-5 d-none d-md-block colorStyle">
+                    <img src={FormImg} width="450" alt="image of section" />
                 </div>
             </div>
         </div>

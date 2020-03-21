@@ -1,8 +1,8 @@
 import React from 'react';
 
 import 'bootswatch/dist/minty/bootstrap.min.css';
-import '../Header/style.css';
 import Doe from '../Header/blood.png';
+import '../style.css';
 
 
 const Header = () =>
@@ -13,7 +13,7 @@ const Header = () =>
         <div className="col-md-6 d-flex caixa">
           <div className="align-self-center">
             <h1 className=" textHeader">Doe sangue, doe vida</h1>
-                    <button type="button" className="btn btn-lg buttonStyle">Cadastre-se</button>
+                    <button type="button" className="btn btn-lg colorStyle">Cadastre-se</button>
           </div>
         </div>
         <div className="col-md-6 d-none d-md-block">

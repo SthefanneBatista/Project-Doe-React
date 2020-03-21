@@ -1,8 +1,18 @@
-/*--------Header ------*/
+
+.colorStyle{
+    background-color: #2270A8;
+}
+
 *{
     overflow-x: hidden;
-
 }
+
+.caixaSection{
+    margin-top: 30px;
+}
+
+
+/*--------Header ------*/
 .container{
     background-color: #AFE2FF;
     max-width: 100%;
@@ -19,20 +29,8 @@
     font-size: 74px;
 }
 
-.buttonStyle{
-    background-color: #2270A8;
-}
-
 
 /*------ SectionOne -----*/
-
-.caixaSectionOne{
-    margin-top: 30px;
-}
-
-.ImgS{
-    margin-left: 50px;
-}
 
 .textSection{
     font-size: large;
@@ -42,25 +40,22 @@
     background-color: #DB3661;
 }
 
+.imgS{
+    padding-left: 120px;
+    width: 500px;
+}
+
 /*---------------- Form Section ------------*/
-.FormSection{
-    padding-top: 60px;
+
+.inputForm{
+    padding-bottom: 25px;
 }
 
-
-.containerFormSection{
-    max-width: 100%;
-}
 
 .form{
     justify-content: center;
-    padding-top: 100px;
     background-color: #DB3661;
     position: relative;
-}
-
-.formImg{
-    background-color: #2270A8;
 }
 
 
@@ -69,20 +64,25 @@
     color: #ffff;
 }
 
-.formInput{
-    width:300px;
-    height:250px;
-}
-
-.btnStyle{
-    background-color: #2270A8;
-}
-
 .buttonCadastro{
     padding-top: 30px;
-    padding-left: 85px;
+    padding-left: 90px;
 }
 
-/*----------- Depositions ---------- */
+h2{
+    color: #ffff;
+    margin-bottom: 30px;
+}
+
+/*------------ Footer ---------- */
+
+.containerFooter{
+   color: #fff;
+   margin-top: 100px;
+   padding: 16px;
+
+}
+
+
 
 

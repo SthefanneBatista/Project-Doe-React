@@ -2,15 +2,14 @@ import React from 'react';
 
 import ImgSection from '../SectionOne/bloodSection.png'
 import 'bootswatch/dist/minty/bootstrap.min.css';
-import '../Header/style.css';
-
+import '../style.css';
 const SectionOne = () =>
 
-    <section className="caixaSectionOne">
-        <div className="containerSectionOne">
+    <section className="caixaSection">
+        <div>
             <div className="row">
             <div className="col-md-6">
-                    <img src={ImgSection} width="400px" alt="image of section" className="ImgS" />
+                    <img src={ImgSection}  alt="image of section" className="imgS" />
                 </div>
                 <div className="col-md-6 d-flex">
                     <div className="align-self-center">
