@@ -1,4 +1,4 @@
-# <h3 align="center">UX PROJECT</h3>
+# <h3 align="center">UI/UX PROJECT</h3>
 <p align="center">
    By Figma
     <br />
