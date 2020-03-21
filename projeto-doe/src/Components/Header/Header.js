@@ -1,12 +1,13 @@
 import React from 'react';
 
 import 'bootswatch/dist/minty/bootstrap.min.css';
-import '../styleHeader.css';
-import Doe from '../Components/blood.png'
+import '../Header/style.css';
+import Doe from '../Header/blood.png';
 
 
-const Header = () => <header>
-    
+const Header = () =>
+
+<header>
     <div className="container">
       <div className="row">
         <div className="col-md-6 d-flex caixa">
@@ -16,13 +17,10 @@ const Header = () => <header>
           </div>
         </div>
         <div className="col-md-6 d-none d-md-block">
-          <img src={Doe} width="520"/> 
+          <img src={Doe} width="520" alt="Logo doe"/> 
         </div>
       </div>
     </div>
-    
-    
-    
     </header>;
 
 export default Header;
